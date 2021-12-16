@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.section {
+  height: 100vh;
+  width: 100vw;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#section-1 {
+  background-color: #f4a261;
+}
+
+#section-2 {
+  background-color: #e9c46a;
+}
+
+#section-3 {
+  background-color: #2a9d8f;
+}
+
+#section-4 {
+  background-color: #264653;
+}

@@ -2,6 +2,10 @@
   --color-primary: #3a86ff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -11,6 +15,12 @@ body {
 .section {
   height: 100vh;
   width: 100vw;
+}
+
+.section__header {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
 }
 
 #section-1 {
@@ -43,9 +53,9 @@ body {
   color: #3a86ff;
 }
 
-.about {
-  display: flex;
-  justify-content: center;
+.intro h1 {
+  font-size: 2.5rem;
+  margin: 0 1rem;
 }
 
 .about__body {
@@ -58,9 +68,6 @@ body {
 
 .about__body p {
   margin: 0 2rem 1rem 2rem;
-}
-
-.about h1 {
 }
 
 .btn {

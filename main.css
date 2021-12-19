@@ -1,5 +1,6 @@
 :root {
   --color-primary: #3a86ff;
+  --color-secondary: #e2eafc;
 }
 
 html {
@@ -21,6 +22,7 @@ body {
   display: flex;
   justify-content: center;
   text-transform: uppercase;
+  color: #fff;
 }
 
 #section-1 {
@@ -28,7 +30,7 @@ body {
 }
 
 #section-2 {
-  background-color: #92a2b9;
+  background-color: #33414f;
 }
 
 #section-3 {
@@ -70,6 +72,12 @@ body {
   margin: 0 2rem 1rem 2rem;
 }
 
+@media screen and (min-width: 768px) {
+  .about__body {
+    flex-direction: row;
+  }
+}
+
 .btn {
   border-radius: 40px;
   border: 0;
@@ -86,4 +94,15 @@ body {
 .btn--primary {
   background: var(--color-primary);
   color: #fff;
+}
+
+.btn--secondary {
+  background: #d7d7d7;
+  border: 2px solid #232a34;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 80%;
+  }
 }
